@@ -21,9 +21,9 @@
     -i ==> --interactive.
     -t ==> --tty (Allocate a pseudo-TTY).
     --rm ==> This will remove the container when it is stopped.
-    -p ==> is Port forwarding                                                                                                                                                                                                                                                             ## Pull other version docker images..
+    -p ==> is Port forwarding                                                                                                                                                                                                                                                           ## Pull other version docker images..
     docker pull openjdk:8
-    
-    ## List all containers
+ 
+ ## List all containers
     
      docker ps -a
