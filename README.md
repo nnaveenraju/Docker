@@ -29,3 +29,8 @@
  ## List all containers
     
      docker ps -a
+     
+## Remove all open containers
+    docker rm -f $(docker ps -aq)
+    
+## ...
