@@ -3,13 +3,13 @@
 ## Install Docker in CentOS
    sudo yum -y install docker
 
-   -------------------------------------------------------------------------------------
+   | :---------------------:              | :----------------------------:              |
    | sudo -i                              |  Enter root user using this option.         |
    | groupadd docker                      |  And setup Docker group.                    |
    | usermod -aG docker cloud_user        |  And setup Docker group.                    |
    | systemctl enable  --now docker       |  Enable and start docker                    |
    | logout                               |  Log out of root                            |
-   --------------------------------------------------------------------------------------
+   
   
 
 ## Check Version:
